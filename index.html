@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navigation Bar</title>
+  <title>Sazan.Codes</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -121,7 +121,7 @@
         </ul>
       </div>
     </div>
-    <div id=getintouch" class="getintouch">
+    <div id="getintouch" class="getintouch">
       <h4>Contact Me</h4>
       <p>Email: <a href="mailto:your-email@example.com">aryanluitel2024@gmail.com</a></p>
       <p>Phone: <a href="tel:+1234567890">(208) 406 9322</a></p>
@@ -178,7 +178,8 @@
     font-size: 18px;
     list-style-type: none;
     color: white;
-    text-align: justify padding: 0;
+    text-align: justify;
+    padding: 0;
   }
 
   .university-list li {
@@ -232,6 +233,34 @@
     color: white;
     text-align: justify;
     margin-top: 1.5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .blinking-text {
+      font-size: 16px;
+    }
+
+    .about-me, 
+    .Experience, 
+    .university-list, 
+    .projects, 
+    .contact p, 
+    .getintouch {
+      font-size: 16px;
+      padding: 5px;
+    }
+
+    .university-list li {
+      margin-top: 5px;
+    }
+
+    .projects ul li::before {
+      margin-right: 5px;
+    }
+
+    .contact p {
+      margin-bottom: 5px;
+    }
   }
 </style>
 
